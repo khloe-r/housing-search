@@ -3,9 +3,8 @@ import re
 from bs4 import BeautifulSoup
 
 url = "https://bamboohousing.ca/homepage?StartTerm=Fall&RoomsAvailable=3&Coed=&UwaterlooDist=&LeaseType=4%20Month%20Sublet&Price=&Sort=Recent"
-fake_url = "https://bamboohousing.ca/homepage?StartTerm=Fall&RoomsAvailable=&Coed=&UwaterlooDist=&LeaseType=&Price=&Sort=Recent"
 
-response = requests.get(fake_url)
+response = requests.get(url)
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.content, "html.parser")
