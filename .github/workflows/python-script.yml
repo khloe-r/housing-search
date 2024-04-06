@@ -2,7 +2,6 @@ name: Python Script
 
 permissions:
   contents: write
-  pages: write
 
 on: 
   workflow_dispatch:

@@ -8,6 +8,7 @@ url = "https://bamboohousing.ca/homepage?StartTerm=Fall&RoomsAvailable=3&Coed=&U
 response = requests.get(url)
 
 print("Listings for ", date.today().strftime("%B %d, %Y"))
+print('')
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.content, "html.parser")
