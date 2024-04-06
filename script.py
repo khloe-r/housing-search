@@ -1,10 +1,13 @@
 import requests
 import re
 from bs4 import BeautifulSoup
+from datetime import date
 
 url = "https://bamboohousing.ca/homepage?StartTerm=Fall&RoomsAvailable=3&Coed=&UwaterlooDist=&LeaseType=4%20Month%20Sublet&Price=&Sort=Recent"
 
 response = requests.get(url)
+
+print("Listings for ", date.today().strftime("%B %d, %Y"))
 
 if response.status_code == 200:
     soup = BeautifulSoup(response.content, "html.parser")
@@ -21,3 +24,5 @@ if response.status_code == 200:
                 print(title.text)
 else:
     print("Failed to retrieve data from the URL.")
+
+print('')

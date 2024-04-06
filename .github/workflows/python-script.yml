@@ -4,7 +4,7 @@ name: Python Script
 on: 
   workflow_dispatch:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 13 * * *'
 
   
 jobs:
@@ -27,4 +27,4 @@ jobs:
         run: pip install -r requirements.txt
       
       - name: Run script
-        run: python script.py 
+        run: python script.py >> README.md
