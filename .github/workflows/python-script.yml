@@ -37,3 +37,6 @@ jobs:
           git add .
           git commit -m "crongenerated"
           git push
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
