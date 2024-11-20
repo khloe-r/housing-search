@@ -914,3 +914,7 @@ Listings for  November 19, 2024
 
 $869 / Month 325A Lester St, Waterloo5 Bedroom 2 Bathroom Loft Style Apartment 
 
+Listings for  November 20, 2024
+
+$869 / Month 325A Lester St, Waterloo5 Bedroom 2 Bathroom Loft Style Apartment 
+
