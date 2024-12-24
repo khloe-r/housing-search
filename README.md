@@ -1050,3 +1050,7 @@ Listings for  December 23, 2024
 
 $1100 / Month 49 Columbia St W, Waterloo1-3 bedrooms in a 5 bedroom place  
 
+Listings for  December 24, 2024
+
+$1100 / Month 49 Columbia St W, Waterloo1-3 bedrooms in a 5 bedroom place  
+
