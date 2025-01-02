@@ -1086,3 +1086,7 @@ Listings for  January 01, 2025
 
 No listings today :(
 
+Listings for  January 02, 2025
+
+No listings today :(
+
