@@ -1126,3 +1126,7 @@ Listings for  January 11, 2025
 
 No listings today :(
 
+Listings for  January 12, 2025
+
+No listings today :(
+
