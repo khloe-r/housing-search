@@ -1150,3 +1150,7 @@ Listings for  January 17, 2025
 
 No listings today :(
 
+Listings for  January 18, 2025
+
+No listings today :(
+
